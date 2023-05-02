@@ -2,25 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
-  
+body {
+    height: 100vh;
+    display: block;
+}
+bg-lineas-diagonales{
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 20px,
+      rgba(0, 0, 0, 0) 40px,
+      #DF6C4F 40px,
+      #DF6C4F 60px
+      );
+    }
   header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #000;
-  }
+    background: #d172a9;
+      }
   
   header img {
     width: 80px;
   }
   
   header h1 {
-    color: #fff;
+    color: #530b3e;
   }
   
   .headernav {
-    background: #c51b1b;
+    background: #ffc1f7;
     width: 100%;
     position: sticky;
     top: 0;
@@ -45,15 +58,33 @@
   }
   
   .caja1 {
-    background: #22eb9b;
-    border: 2px double #2c22eb;
-  
+    background: #fda98f;
+    border: 2px double hsla(0, 0%, 99%, 0.603);
+    background-image: url(/images/tiavanorig.jpg);
     position: fixed;
     z-index: 9px;
     right: 3px;
   }
   .caja2 {
-    background: #f7b233;
+    background: #f8e995;
+    position: relative;
+    left: 3rem;
+    top: 5px;
+  }
+  .caja3 {
+    background: #8cfff9;
+    position: relative;
+    left: 3rem;
+    top: 5px;
+  }
+  .caja4 {
+    background: #fdff84;
+    position: relative;
+    left: 3rem;
+    top: 5px;
+  }
+  .caja5 {
+    background: #ec7e87;
     position: relative;
     left: 3rem;
     top: 5px;
